@@ -103,7 +103,7 @@ header nav ul{
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    background-position: 100%; 
+  
 }
 .column {
     float: left;
