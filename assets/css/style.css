@@ -64,26 +64,32 @@ header nav ul{
 .cell-1 {
      background: url("../Images/Surfer.png");
      background-position: center;
-     text-align: center;
+     text-align: justify;
      grid-row: 1/3;
      grid-column: 1/3
           }
 .cell-2 {
     background: url("../Images/LED.jpg");
-
-    background-position: center;
-    text-align: center;
+    background-position: start ;
+    text-align: start;
     
           }
 .cell-3 {
-    background: royalblue;
+    background: url("../Images/calculator.jpg");
+    background-position: center;
+     text-align: left;
           }
 .cell-4 {
-    background: gold;
+    background:url("../Images/puzzle.jpg");
+    background-position: center;
+    text-align: start;
+    grid-row: 3;
+     grid-column: 1;
           }
 .cell-5 {
     background: url("../Images/Run.jpeg");
-    background-position: center;
+    background-position-x: bottom;
+    text-align: left;
 
           }
 
@@ -114,8 +120,7 @@ p{
   line-height: 1.65;
   padding: 20 px 50 px;
   font-weight: bold;
-  display: flex;
-    
+  display: flex; 
   }
 
 .main-column{
