@@ -92,7 +92,10 @@ header nav ul{
    text-align: center;
    border-style: solid;
 }
-
+p{
+  
+   text-align: center;
+}
 #img{
     background: url("../images/blue-chevron-background.jpg");
     background-size: cover;
@@ -105,31 +108,47 @@ header nav ul{
     background-attachment: fixed;
   
 }
-.column {
-    float: left;
-    width: 33%;
-  
-   
+.column-layout{
+  max-width: 1300px;
+  margin: 40px auto 0 auto;
+  line-height: 1.65;
+  padding: 20 px 50 px;
+  font-weight: bold;
+  display: flex;
+    
   }
-  
+
+.main-column{
+ padding: 20px;
+ background-color: #1E90FF;
+ box-sizing: border-box;
+ margin-bottom: 20px;
+ width: 30%;
+ font-size: x-large;
+    
+}
+
+.sidebar-one{
+  padding: 20px;
+  background-color: #1E90FF;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.sidebar-two {
+  padding: 20px;
+  background-color: #1E90FF;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+
+
   /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .contact-1{
-   font-size: xx-large;
-   font-weight: 700;
-   text-align: center;
-  }
-
-  .contact-2{
-      font-size:1;
-      text-align: center;
-  }
-
+ 
+  
 
           /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
