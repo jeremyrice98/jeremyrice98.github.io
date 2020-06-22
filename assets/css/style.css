@@ -69,7 +69,7 @@ header nav ul{
      grid-column: 1/3
           }
 .cell-2 {
-    background: url("../Images/LED.jpg");
+    background: url("../Images/dndimage.png");
     background-position: start ;
     text-align: start;
     
@@ -148,6 +148,7 @@ p{
   margin-bottom: 20px;
   width: 30%;
 }
+
 
 
 

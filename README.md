@@ -17,5 +17,5 @@ Contact Me
   
   Used several branches to merge work as I went.  
       mywork: is for the grid section
-      fotter: is for my contact information
+      footer: is for my contact information
   
