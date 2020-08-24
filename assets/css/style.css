@@ -75,7 +75,11 @@ header nav ul{
     
           }
 .cell-3 {
+<<<<<<< HEAD
     background: url("../Images/calendar1.png");
+=======
+    background: url("../Images/calculator.jpg");
+>>>>>>> 7149aa2bfeeac29865c5c619038edb8d096f6c21
     background-position: center;
      text-align: left;
           }
